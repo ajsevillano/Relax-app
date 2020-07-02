@@ -8,12 +8,17 @@
 	</head>
 	<body>
 		<div class="gallery">
+			<audio id="myAudio">
+				<source src="./audios/rain.wav" type="audio/mpeg" />
+				Your browser does not support the audio element.
+			</audio>
 			<div class="img-container">
 				<img
 					src="./img/preview/beach-small.jpg"
 					alt="Beach landscape"
 					data-original="beach-full.jpg"
 				/>
+				<p>Sounds of the beach</p>
 				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 					<title>Play button</title>
 					<g fill="#fff">
@@ -32,6 +37,7 @@
 					alt="Forest landscape"
 					data-original="forest-full.jpg"
 				/>
+				<p>In a Quiet forest</p>
 				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 					<title>Play button</title>
 					<g fill="#fff">
@@ -50,7 +56,12 @@
 					alt="rain landscape"
 					data-original="rain-full.jpg"
 				/>
-				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+				<p>Just a Rainy day</p>
+				<svg
+					id="playRain"
+					viewBox="0 0 512 512"
+					xmlns="http://www.w3.org/2000/svg"
+				>
 					<title>Play button</title>
 					<g fill="#fff">
 						<path
@@ -68,6 +79,7 @@
 					alt="Beach landscape"
 					data-original="night-full.jpg"
 				/>
+				<p>A starry night</p>
 				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 					<title>Play button</title>
 					<g fill="#fff">
@@ -81,5 +93,6 @@
 				</svg>
 			</div>
 		</div>
+		<script src="./main.js"></script>
 	</body>
 </html>
