@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -29,13 +31,32 @@
 
 .img-container svg {
 	position: absolute;
-	top: 38%;
-	left: 33%;
+	top: 50%;
+	left: 50%;
 	width: 134px;
+	margin-left: -67px;
+	margin-top: -67px;
 	cursor: pointer;
 	transition: all 0.3s ease-out;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .img-container svg {
 	opacity: 0.4;
+}
+
+.img-container p {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+	.img-container p {
+		top: 34%;
+	}
 }
