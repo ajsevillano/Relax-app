@@ -24,39 +24,41 @@
 	object-fit: cover;
 }
 
-.img-container svg:hover {
+/* Flex box inside the img-container to wrap the title and the button */
+
+.elements-box {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.elements-box p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+}
+
+.elements-box svg:hover {
 	transform: scale(1.2);
 	opacity: 1;
 }
 
-.img-container svg {
-	position: absolute;
-	top: 50%;
-	left: 50%;
+.elements-box svg {
 	width: 134px;
-	margin-left: -67px;
-	margin-top: -67px;
 	cursor: pointer;
 	transition: all 0.3s ease-out;
 	-webkit-tap-highlight-color: transparent;
-}
-
-.img-container svg {
 	opacity: 0.4;
 }
 
-.img-container p {
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-}
-
-@media only screen and (max-width: 480px) {
-	.img-container p {
-		top: 34%;
-	}
+.pause-button,
+.hidden {
+	display: none;
 }

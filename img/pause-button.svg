@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<g>
+<title>background</title>
+<rect x="-1" y="-1" fill="none"/>
+</g>
+<g>
+<title>Layer 1</title>
+<g fill="#fff">
+<path d="m437.02 74.98c-48.353-48.351-112.64-74.98-181.02-74.98s-132.67 26.629-181.02 74.98c-48.351 48.353-74.98 112.64-74.98 181.02s26.629 132.67 74.98 181.02c48.353 48.351 112.64 74.98 181.02 74.98s132.67-26.629 181.02-74.98c48.351-48.353 74.98-112.64 74.98-181.02s-26.629-132.67-74.98-181.02zm-181.02 397.02c-119.1 0-216-96.897-216-216s96.897-216 216-216 216 96.897 216 216-96.897 216-216 216z"/>
+<rect x="165.5" y="123.45" width="76" height="267" stroke="null" stroke-opacity="null" stroke-width="null"/>
+<rect x="276.57" y="123.45" width="76" height="267" stroke="null" stroke-opacity="null" stroke-width="null"/>
+</g>
+</g>
+</svg>
